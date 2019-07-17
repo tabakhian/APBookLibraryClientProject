@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBookLibraryProject", "APBookLibraryProject\APBookLibraryProject.csproj", "{CD34292E-64CF-4379-B600-33C94338A954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagmentConnectSDK", "LibraryManagmentConnectSDK\LibraryManagmentConnectSDK.csproj", "{E363194D-96B5-4EAD-A006-CD415ABDD39C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD34292E-64CF-4379-B600-33C94338A954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD34292E-64CF-4379-B600-33C94338A954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD34292E-64CF-4379-B600-33C94338A954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD34292E-64CF-4379-B600-33C94338A954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E363194D-96B5-4EAD-A006-CD415ABDD39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E363194D-96B5-4EAD-A006-CD415ABDD39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E363194D-96B5-4EAD-A006-CD415ABDD39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E363194D-96B5-4EAD-A006-CD415ABDD39C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68589040-15ED-48CB-B489-E08142A99DA6}
+	EndGlobalSection
+EndGlobal
