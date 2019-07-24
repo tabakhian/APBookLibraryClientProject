@@ -36,8 +36,9 @@ namespace LibraryManagmentConnectSDK
 				var reply = ConnectionSetting.LibraryManagerClient.ServerAvailable(new HelloRequest { });
 				returnValue = reply.IsSuccessfull;
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
+
 			}
 
 			return(returnValue);

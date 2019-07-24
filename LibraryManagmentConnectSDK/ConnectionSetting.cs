@@ -19,13 +19,14 @@ namespace LibraryManagmentConnectSDK
 									 ChannelCredentials.Insecure);
 			try
 			{
-				ConnectionChannel.ConnectAsync(System.DateTime.UtcNow.AddSeconds(3)).GetAwaiter().GetResult();
+				//ConnectionChannel.ConnectAsync(System.DateTime.UtcNow.AddSeconds(3)).GetAwaiter().GetResult();
+				ConnectionChannel.ConnectAsync().GetAwaiter().GetResult();
 				LibraryManagerClient = new LibraryManager.LibraryManagerClient(ConnectionChannel);
 
 				ServerConnection oServerConnection = new ServerConnection();
 				ConnectedToServer = oServerConnection.CheckServerAvailability(true);
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
 				ConnectedToServer = false;
 			}
